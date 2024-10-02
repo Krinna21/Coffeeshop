@@ -1,9 +1,21 @@
+.recipes h1,
+.recipes h2,
+.recipes h3,
+.recipes h4,
+.recipes p,
+.recipes ul,
+.recipes ol {
+  margin: 0;
+}
+
 .recipes {
   color: #ffffff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .recipes__title {
@@ -32,6 +44,8 @@
   font-size: 20px;
   line-height: 30px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes__iframe {

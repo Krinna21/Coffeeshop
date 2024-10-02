@@ -16,6 +16,9 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button {
@@ -24,13 +27,13 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
   background-color: #1878dc;
-  transition: background-color #3f96f3;
+  transition: background-color 0.3s ease;
 }
 
 .form__button:hover {
@@ -47,10 +50,6 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-  font-family: "Inter", "Arial", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__label {
@@ -60,7 +59,7 @@
   line-height: 20px;
 }
 
-.placeholder {
+.form__input::placeholder {
   color: #838383;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 20px;

@@ -5,7 +5,9 @@
   align-items: center;
   color: #000000;
   background-color: #ffffff;
-  background-position: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(../images/background_menu.svg);
 }
 
